@@ -28,6 +28,8 @@ requirements:
     - pyyaml >=5.4
     - semantic_version
     - defusedxml
+    - jsonschema
+    - xmlschema
 
 tests:
   - python:
