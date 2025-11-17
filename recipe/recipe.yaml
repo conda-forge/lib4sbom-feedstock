@@ -26,6 +26,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - pyyaml >=5.4
+    - python-fastjsonschema
     - semantic_version
     - defusedxml
     - jsonschema
