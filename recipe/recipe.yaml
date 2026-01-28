@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: lib4sbom
-  version: "0.9.3"
+  version: "0.9.4"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 source:
   # There is no sdist on PyPI
   url: https://github.com/anthonyharrison/${{ name }}/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 518cc80f299ecaa3f04a96dc3ad1fed373c7074feb11c1158d3d15a25752ae06
+  sha256: 272a12023d0c87845024530afc90dc3e6fd9987753f585d986d63b2e86416345
 
 build:
   number: 0
